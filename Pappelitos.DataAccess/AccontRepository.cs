@@ -2,7 +2,7 @@
 
 namespace Pappelitos.DataAccess
 {
-    public class Class1
+    public class AccountRepository
     {
     }
 }

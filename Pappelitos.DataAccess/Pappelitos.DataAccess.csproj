@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Pappelitos.Domain\Pappelitos.Domain.csproj" />
+    <ProjectReference Include="..\Pappelitos.DataAccess.Interface\Pappelitos.DataAccess.Interface.csproj" />
   </ItemGroup>
 
   <ItemGroup>

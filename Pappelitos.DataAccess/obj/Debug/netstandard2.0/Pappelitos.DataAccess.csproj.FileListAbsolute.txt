@@ -1,0 +1,4 @@
+E:\Lucas\Algo inc\Pappelitos\Pappelitos\Pappelitos.DataAccess\obj\Debug\netstandard2.0\Pappelitos.DataAccess.csprojAssemblyReference.cache
+E:\Lucas\Algo inc\Pappelitos\Pappelitos\Pappelitos.DataAccess\obj\Debug\netstandard2.0\Pappelitos.DataAccess.csproj.CoreCompileInputs.cache
+E:\Lucas\Algo inc\Pappelitos\Pappelitos\Pappelitos.DataAccess\obj\Debug\netstandard2.0\Pappelitos.DataAccess.AssemblyInfoInputs.cache
+E:\Lucas\Algo inc\Pappelitos\Pappelitos\Pappelitos.DataAccess\obj\Debug\netstandard2.0\Pappelitos.DataAccess.AssemblyInfo.cs

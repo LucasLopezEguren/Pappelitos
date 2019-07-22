@@ -601,6 +601,16 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "Pappelitos.DataAccess.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Pappelitos.DataAccess.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pappelitos.DataAccess.Interface.dll": {}
+        }
+      },
       "Pappelitos.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2601,6 +2611,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "Pappelitos.DataAccess.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Pappelitos.DataAccess.Interface/Pappelitos.DataAccess.Interface.csproj",
+      "msbuildProject": "../Pappelitos.DataAccess.Interface/Pappelitos.DataAccess.Interface.csproj"
+    },
     "Pappelitos.Domain/1.0.0": {
       "type": "project",
       "path": "../Pappelitos.Domain/Pappelitos.Domain.csproj",
@@ -2610,8 +2625,9 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.EntityFrameworkCore >= 2.2.6",
-      "Microsoft.EntityFrameworkCore.InMemory",
+      "Microsoft.EntityFrameworkCore.InMemory >= 2.2.6",
       "NETStandard.Library >= 2.0.3",
+      "Pappelitos.DataAccess.Interface >= 1.0.0",
       "Pappelitos.Domain >= 1.0.0"
     ]
   },
@@ -2643,6 +2659,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "E:\\Lucas\\Algo inc\\Pappelitos\\Pappelitos\\Pappelitos.DataAccess.Interface\\Pappelitos.DataAccess.Interface.csproj": {
+              "projectPath": "E:\\Lucas\\Algo inc\\Pappelitos\\Pappelitos\\Pappelitos.DataAccess.Interface\\Pappelitos.DataAccess.Interface.csproj"
+            },
             "E:\\Lucas\\Algo inc\\Pappelitos\\Pappelitos\\Pappelitos.Domain\\Pappelitos.Domain.csproj": {
               "projectPath": "E:\\Lucas\\Algo inc\\Pappelitos\\Pappelitos\\Pappelitos.Domain\\Pappelitos.Domain.csproj"
             }
@@ -2664,7 +2683,7 @@
           },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[2.2.6, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
