@@ -6,7 +6,7 @@ using Pappelitos.DataAccess.Interface;
 using System.Linq.Expressions;
 using System.Linq;
 
-namespace CompanyDashboard.DataAccess
+namespace Pappelitos.DataAccess
 {
     public abstract class BaseRepository<T> : IRepository<T> where T : class
     {
@@ -64,8 +64,5 @@ namespace CompanyDashboard.DataAccess
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-        
-
-
     }
 }

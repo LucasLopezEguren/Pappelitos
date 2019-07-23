@@ -1,0 +1,9 @@
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/bin/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.deps.json
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/bin/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.dll
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/bin/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.pdb
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/obj/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.csprojAssemblyReference.cache
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/obj/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.csproj.CoreCompileInputs.cache
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/obj/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.AssemblyInfoInputs.cache
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/obj/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.AssemblyInfo.cs
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/obj/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.dll
+/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/obj/Debug/netstandard2.0/Pappelitos.BusinessLogic.Interface.pdb
