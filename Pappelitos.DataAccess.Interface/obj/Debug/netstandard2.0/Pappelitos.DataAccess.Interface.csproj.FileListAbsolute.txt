@@ -1,12 +1,12 @@
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.csprojAssemblyReference.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.csproj.CoreCompileInputs.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.AssemblyInfoInputs.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.AssemblyInfo.cs
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.deps.json
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.dll
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.pdb
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.dll
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.pdb
+/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.csprojAssemblyReference.cache
+/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.csproj.CoreCompileInputs.cache
+/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.AssemblyInfoInputs.cache
+/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.AssemblyInfo.cs
+/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.deps.json
+/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.dll
+/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.pdb
+/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.dll
+/Pappelitos/Pappelitos.DataAccess.Interface/obj/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.pdb
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.deps.json
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.dll
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess.Interface/bin/Debug/netstandard2.0/Pappelitos.DataAccess.Interface.pdb

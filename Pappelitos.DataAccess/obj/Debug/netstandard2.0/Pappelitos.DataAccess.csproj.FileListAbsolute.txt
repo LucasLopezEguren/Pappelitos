@@ -1,7 +1,7 @@
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess/obj/Debug/netstandard2.0/Pappelitos.DataAccess.csprojAssemblyReference.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess/obj/Debug/netstandard2.0/Pappelitos.DataAccess.csproj.CoreCompileInputs.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess/obj/Debug/netstandard2.0/Pappelitos.DataAccess.AssemblyInfoInputs.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.DataAccess/obj/Debug/netstandard2.0/Pappelitos.DataAccess.AssemblyInfo.cs
+/Pappelitos/Pappelitos.DataAccess/obj/Debug/netstandard2.0/Pappelitos.DataAccess.csprojAssemblyReference.cache
+/Pappelitos/Pappelitos.DataAccess/obj/Debug/netstandard2.0/Pappelitos.DataAccess.csproj.CoreCompileInputs.cache
+/Pappelitos/Pappelitos.DataAccess/obj/Debug/netstandard2.0/Pappelitos.DataAccess.AssemblyInfoInputs.cache
+/Pappelitos/Pappelitos.DataAccess/obj/Debug/netstandard2.0/Pappelitos.DataAccess.AssemblyInfo.cs
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess/bin/Debug/netstandard2.0/Pappelitos.DataAccess.deps.json
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess/bin/Debug/netstandard2.0/Pappelitos.DataAccess.dll
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess/bin/Debug/netstandard2.0/Pappelitos.DataAccess.pdb

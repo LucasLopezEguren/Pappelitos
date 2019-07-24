@@ -1,12 +1,12 @@
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.deps.json
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.dll
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.pdb
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.csprojAssemblyReference.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.csproj.CoreCompileInputs.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.AssemblyInfoInputs.cache
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.AssemblyInfo.cs
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.dll
-E:/Lucas/Algo inc/Pappelitos/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.pdb
+/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.deps.json
+/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.dll
+/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.pdb
+/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.csprojAssemblyReference.cache
+/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.csproj.CoreCompileInputs.cache
+/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.AssemblyInfoInputs.cache
+/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.AssemblyInfo.cs
+/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.dll
+/Pappelitos/Pappelitos.Domain/obj/Debug/netstandard2.0/Pappelitos.Domain.pdb
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.deps.json
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.dll
 /Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/bin/Debug/netstandard2.0/Pappelitos.Domain.pdb
