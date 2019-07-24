@@ -4,6 +4,7 @@
     <ProjectReference Include="..\Pappelitos.Domain\Pappelitos.Domain.csproj" />
     <ProjectReference Include="..\Pappelitos.DataAccess\Pappelitos.DataAccess.csproj" />
     <ProjectReference Include="..\Pappelitos.BusinessLogic.Interface\Pappelitos.BusinessLogic.Interface.csproj" />
+    <ProjectReference Include="..\Pappelitos.DataAccess.Interface\Pappelitos.DataAccess.Interface.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
