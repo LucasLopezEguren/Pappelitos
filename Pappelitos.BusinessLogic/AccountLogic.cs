@@ -1,5 +1,6 @@
 ﻿using System;
 using Pappelitos.Domain;
+using System.Collections.Generic;
 using Pappelitos.BusinessLogic.Interface;
 using Pappelitos.DataAccess.Interface;
 
@@ -29,6 +30,18 @@ namespace Pappelitos.BusinessLogic
             accountRepository.Update(account);
             accountRepository.Save();
             return account;
+        }
+        public void CreatePlayer (Account account, String name){
+            Player newPlayer = new Player(name);
+            account.Players.Add(newPlayer);
+            accountRepository.Update(account);
+            accountRepository.Save();
+        }
+        public Match CreateMatch(Account account, Match newMatch){
+            account.Matches.Add(newMatch);
+            accountRepository.Update(account);
+            accountRepository.Save();
+            return newMatch;
         }
     }
 }

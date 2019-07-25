@@ -7,5 +7,8 @@ namespace Pappelitos.Domain
     {
         public int Id {get; set;}
         public String Name {get; set;}
+        public Player (String name){
+            this.Name = name;
+        }
     }
 }
