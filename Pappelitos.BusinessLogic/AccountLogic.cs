@@ -18,11 +18,11 @@ namespace Pappelitos.BusinessLogic
             accountRepository.Save();
             return account;
         }
-        public Account DeleteAccount(Account account)
+        public void DeleteAccount(int id)
         {
-            accountRepository.Delete(account);
+            Account toDelete = accountRepository.GetByID(id);
+            accountRepository.Delete(toDelete);
             accountRepository.Save();
-            return account;
         }
         public Account UpdateAccount(Account account)
         {
