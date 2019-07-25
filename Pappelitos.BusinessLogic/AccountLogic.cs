@@ -37,7 +37,7 @@ namespace Pappelitos.BusinessLogic
             accountRepository.Update(account);
             accountRepository.Save();
         }
-        public Match CreateMatch(Account account, Match newMatch){
+        public Match CreateMatch (Account account, Match newMatch){
             account.Matches.Add(newMatch);
             accountRepository.Update(account);
             accountRepository.Save();
