@@ -8,5 +8,7 @@ namespace Pappelitos.BusinessLogic.Interface
         Account AddAccount(Account toAdd);
         Account UpdateAccount(Account toUpdate);
         void DeleteAccount(int id);
+        void CreatePlayer (Account account, String name);
+        Match CreateMatch (Account account, Match newMatch);
     }
 }
