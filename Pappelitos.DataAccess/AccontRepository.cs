@@ -15,26 +15,28 @@ namespace Pappelitos.DataAccess
         }
 
         public override void Add(Account account){
-
+            Context.Set<Account>().Add(account);
+            Context.SaveChanges();
         } 
 
         public override Account GetByName(String name){
-            Account toReturn = null;
+            Account toReturn = Context.Set<Account>().Where(x => x.Username == name).FirstOrDefault();
             return toReturn;
         } 
 
         public override Account GetByID(int id){
-            Account toReturn = null;
+            Account toReturn = Context.Set<Account>().Where(x => x.Id == id).FirstOrDefault();
             return toReturn;
         } 
 
         public override IEnumerable<Account> GetAll(){
-            List<Account> toReturn = null;
+            List<Account> toReturn = Context.Set<Account>().ToList();
             return toReturn;
         }
 
         public override bool Has(Account account){
-            return false;
+            return Context.Set<Account>().Contains(account);
+;
         }
     }
 }

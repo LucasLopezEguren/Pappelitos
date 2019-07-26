@@ -15,27 +15,26 @@ namespace Pappelitos.DataAccess
         }
 
         public override void Add(Player player){
-
+            Context.Set<Player>().Add(player);
+            Context.SaveChanges();
         } 
 
         public override Player GetByName(String name){
-            Player toReturn = null;
+            Player toReturn = Context.Set<Player>().Where(x => x.Name == name).FirstOrDefault();
             return toReturn;
         } 
 
         public override Player GetByID(int id){
-            Player toReturn = null;
+            Player toReturn = Context.Set<Player>().Where(x => x.Id == id).FirstOrDefault();
             return toReturn;
         } 
 
         public override IEnumerable<Player> GetAll(){
-            List<Player> toReturn = null;
-            return toReturn;
+            return Context.Set<Player>().ToList();
         }
 
         public override bool Has(Player player){
-            List<Player> toCompare = this.GetAll().ToList();
-            return toCompare.Contains(player);
+            return Context.Set<Player>().Contains(player);
         }
     }
 }
