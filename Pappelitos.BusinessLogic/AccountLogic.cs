@@ -9,9 +9,11 @@ namespace Pappelitos.BusinessLogic
     public class AccountLogic : IAccountLogic
     {
         private IRepository<Account> accountRepository;
-        public AccountLogic(IRepository<Account> repository)
+        private IRepository<Player> playerRepository;
+        public AccountLogic(IRepository<Account> aAccountRepository, IRepository<Player> aPlayerRepository)
         {
-            this.accountRepository = repository;
+            this.accountRepository = aAccountRepository;
+            this.playerRepository = aPlayerRepository;
         }
         public Account AddAccount(Account account)
         {
@@ -33,6 +35,8 @@ namespace Pappelitos.BusinessLogic
         }
         public void CreatePlayer (Account account, String name){
             Player newPlayer = new Player(name);
+            playerRepository.Add(newPlayer);
+            playerRepository.Save();
             account.Players.Add(newPlayer);
             accountRepository.Update(account);
             accountRepository.Save();
