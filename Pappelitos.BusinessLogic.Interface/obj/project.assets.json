@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Pappelitos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Pappelitos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pappelitos.Domain.dll": {}
+        }
       }
     }
   },
@@ -171,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Pappelitos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Pappelitos.Domain/Pappelitos.Domain.csproj",
+      "msbuildProject": "../Pappelitos.Domain/Pappelitos.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Pappelitos.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -205,7 +221,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/Pappelitos.Domain.csproj": {
+              "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/Pappelitos.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

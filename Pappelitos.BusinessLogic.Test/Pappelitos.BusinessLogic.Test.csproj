@@ -1,11 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\Pappelitos.BusinessLogic\Pappelitos.BusinessLogic.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="Moq" Version="4.12.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
   </ItemGroup>
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pappelitos.WebApi\Pappelitos.WebApi.csproj" />
+    <ProjectReference Include="..\Pappelitos.Domain\Pappelitos.Domain.csproj" />
+    <ProjectReference Include="..\Pappelitos.BusinessLogic\Pappelitos.BusinessLogic.csproj" />
+  </ItemGroup>
 
 </Project>

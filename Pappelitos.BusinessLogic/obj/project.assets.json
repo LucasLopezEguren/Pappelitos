@@ -838,6 +838,9 @@
       "Pappelitos.BusinessLogic.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Pappelitos.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Pappelitos.BusinessLogic.Interface.dll": {}
         },
@@ -3327,6 +3330,7 @@
       "NETStandard.Library >= 2.0.3",
       "Pappelitos.BusinessLogic.Interface >= 1.0.0",
       "Pappelitos.DataAccess >= 1.0.0",
+      "Pappelitos.DataAccess.Interface >= 1.0.0",
       "Pappelitos.Domain >= 1.0.0"
     ]
   },
@@ -3360,6 +3364,9 @@
           "projectReferences": {
             "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/Pappelitos.BusinessLogic.Interface.csproj": {
               "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/Pappelitos.BusinessLogic.Interface.csproj"
+            },
+            "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess.Interface/Pappelitos.DataAccess.Interface.csproj": {
+              "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess.Interface/Pappelitos.DataAccess.Interface.csproj"
             },
             "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess/Pappelitos.DataAccess.csproj": {
               "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess/Pappelitos.DataAccess.csproj"
