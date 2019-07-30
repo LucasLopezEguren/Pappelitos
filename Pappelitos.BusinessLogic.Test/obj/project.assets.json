@@ -4997,6 +4997,91 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "Pappelitos.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Pappelitos.BusinessLogic.Interface": "1.0.0",
+          "Pappelitos.DataAccess": "1.0.0",
+          "Pappelitos.DataAccess.Interface": "1.0.0",
+          "Pappelitos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Pappelitos.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pappelitos.BusinessLogic.dll": {}
+        }
+      },
+      "Pappelitos.BusinessLogic.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Pappelitos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Pappelitos.BusinessLogic.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pappelitos.BusinessLogic.Interface.dll": {}
+        }
+      },
+      "Pappelitos.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
+          "Pappelitos.DataAccess.Interface": "1.0.0",
+          "Pappelitos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Pappelitos.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pappelitos.DataAccess.dll": {}
+        }
+      },
+      "Pappelitos.DataAccess.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Pappelitos.DataAccess.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pappelitos.DataAccess.Interface.dll": {}
+        }
+      },
+      "Pappelitos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Pappelitos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pappelitos.Domain.dll": {}
+        }
+      },
+      "Pappelitos.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
+          "Pappelitos.BusinessLogic": "1.0.0",
+          "Pappelitos.DataAccess": "1.0.0",
+          "Pappelitos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Pappelitos.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pappelitos.WebApi.dll": {}
+        }
       }
     }
   },
@@ -13651,16 +13736,49 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "Pappelitos.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../Pappelitos.BusinessLogic/Pappelitos.BusinessLogic.csproj",
+      "msbuildProject": "../Pappelitos.BusinessLogic/Pappelitos.BusinessLogic.csproj"
+    },
+    "Pappelitos.BusinessLogic.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Pappelitos.BusinessLogic.Interface/Pappelitos.BusinessLogic.Interface.csproj",
+      "msbuildProject": "../Pappelitos.BusinessLogic.Interface/Pappelitos.BusinessLogic.Interface.csproj"
+    },
+    "Pappelitos.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Pappelitos.DataAccess/Pappelitos.DataAccess.csproj",
+      "msbuildProject": "../Pappelitos.DataAccess/Pappelitos.DataAccess.csproj"
+    },
+    "Pappelitos.DataAccess.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Pappelitos.DataAccess.Interface/Pappelitos.DataAccess.Interface.csproj",
+      "msbuildProject": "../Pappelitos.DataAccess.Interface/Pappelitos.DataAccess.Interface.csproj"
+    },
+    "Pappelitos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Pappelitos.Domain/Pappelitos.Domain.csproj",
+      "msbuildProject": "../Pappelitos.Domain/Pappelitos.Domain.csproj"
+    },
+    "Pappelitos.WebApi/1.0.0": {
+      "type": "project",
+      "path": "../Pappelitos.WebApi/Pappelitos.WebApi.csproj",
+      "msbuildProject": "../Pappelitos.WebApi/Pappelitos.WebApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "MSTest.TestAdapter >= 1.4.0",
       "MSTest.TestFramework >= 1.4.0",
-      "Microsoft.AspNetCore.App",
+      "Microsoft.AspNetCore.App >= 2.2.6",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Moq >= 4.12.0"
+      "Moq >= 4.12.0",
+      "Pappelitos.BusinessLogic >= 1.0.0",
+      "Pappelitos.Domain >= 1.0.0",
+      "Pappelitos.WebApi >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13690,7 +13808,17 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic/Pappelitos.BusinessLogic.csproj": {
+              "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic/Pappelitos.BusinessLogic.csproj"
+            },
+            "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/Pappelitos.Domain.csproj": {
+              "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/Pappelitos.Domain.csproj"
+            },
+            "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.WebApi/Pappelitos.WebApi.csproj": {
+              "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.WebApi/Pappelitos.WebApi.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -13712,7 +13840,7 @@
           },
           "Microsoft.AspNetCore.App": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[2.2.6, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

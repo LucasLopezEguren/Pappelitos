@@ -25,12 +25,14 @@ namespace Pappelitos.BusinessLogic.Test
             };
             var mock = new Mock<IRepository<Account>>(MockBehavior.Strict);
             mock.Setup(m => m.Add(It.IsAny<Account>()));
-            mock.Setup(m => m.Has(area)).Returns(false);
             mock.Setup(m => m.Save());
 
-            IAccountLogic accountLogic = new AccountLogic(mock.Object);
-            var result = accountLogic.AddArea(account);
+            var mockPlayer = new Mock<IRepository<Player>>(MockBehavior.Strict);
+            mockPlayer.Setup(m => m.Save());
 
+            IAccountLogic accountLogic = new AccountLogic(mock.Object, mockPlayer.Object);
+            var result = accountLogic.AddAccount(account);
+            
             mock.VerifyAll();
             Assert.AreEqual(account.Username, result.Username);
 
