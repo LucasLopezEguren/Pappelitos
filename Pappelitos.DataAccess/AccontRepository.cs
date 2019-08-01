@@ -24,7 +24,7 @@ namespace Pappelitos.DataAccess
             return toReturn;
         } 
 
-        public override Account GetByID(int id){
+        public override Account GetById(int id){
             Account toReturn = Context.Set<Account>().Where(x => x.Id == id).FirstOrDefault();
             return toReturn;
         } 

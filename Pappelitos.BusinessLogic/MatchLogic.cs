@@ -20,7 +20,7 @@ namespace Pappelitos.BusinessLogic
         }
         public void DeleteMatch(int id)
         {
-            Match toDelete = matchRepository.GetByID(id);
+            Match toDelete = matchRepository.GetById(id);
             matchRepository.Delete(toDelete);
             matchRepository.Save();
         }

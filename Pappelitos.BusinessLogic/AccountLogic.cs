@@ -9,10 +9,14 @@ namespace Pappelitos.BusinessLogic
     {
         private IRepository<Account> accountRepository;
         private IRepository<Player> playerRepository;
-        public AccountLogic(IRepository<Account> aAccountRepository, IRepository<Player> aPlayerRepository)
+        private IRepository<Match> matchRepository;
+        public AccountLogic(IRepository<Account> aAccountRepository, 
+                            IRepository<Player> aPlayerRepository,
+                            IRepository<Match> aMatchRepository)
         {
             this.accountRepository = aAccountRepository;
             this.playerRepository = aPlayerRepository;
+            this.matchRepository = aMatchRepository;
         }
         public Account AddAccount(Account account)
         {
@@ -20,19 +24,29 @@ namespace Pappelitos.BusinessLogic
             accountRepository.Save();
             return account;
         }
+
+        public Account GetById(int id)
+        {
+            Account account = this.accountRepository.GetById(id);
+            return account;
+        }
+
         public void DeleteAccount(int id)
         {
-            Account toDelete = accountRepository.GetByID(id);
+            Account toDelete = accountRepository.GetById(id);
             accountRepository.Delete(toDelete);
             accountRepository.Save();
         }
+
         public Account UpdateAccount(Account account)
         {
             accountRepository.Update(account);
             accountRepository.Save();
             return account;
         }
-        public void CreatePlayer (Account account, String name){
+
+        public void CreatePlayer(Account account, String name)
+        {
             Player newPlayer = new Player(name);
             playerRepository.Add(newPlayer);
             playerRepository.Save();
@@ -40,7 +54,9 @@ namespace Pappelitos.BusinessLogic
             accountRepository.Update(account);
             accountRepository.Save();
         }
-        public Match CreateMatch (Account account, Match newMatch){
+
+        public Match CreateMatch(Account account, Match newMatch)
+        {
             account.Matches.Add(newMatch);
             accountRepository.Update(account);
             accountRepository.Save();

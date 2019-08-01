@@ -21,7 +21,7 @@ namespace Pappelitos.BusinessLogic
         }
         public void DeletePlayer(int id)
         {
-            Player toDelete = playerRepository.GetByID(id);
+            Player toDelete = playerRepository.GetById(id);
             playerRepository.Delete(toDelete);
             playerRepository.Save();
         }

@@ -24,7 +24,7 @@ namespace Pappelitos.DataAccess
             return toReturn;
         } 
 
-        public override Card GetByID(int id){
+        public override Card GetById(int id){
             Card toReturn = Context.Set<Card>().Where(x => x.Id == id).FirstOrDefault();
             return toReturn;
         } 

@@ -25,7 +25,7 @@ namespace Pappelitos.DataAccess
             return toReturn;
         } 
 
-        public override Category GetByID(int id){
+        public override Category GetById(int id){
             Category toReturn = Context.Set<Category>().Where(x => x.Id == id).FirstOrDefault();
             return toReturn;
         } 

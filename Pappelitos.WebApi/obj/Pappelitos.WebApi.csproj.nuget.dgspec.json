@@ -27,7 +27,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/Pappelitos.Domain.csproj": {
+                "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.Domain/Pappelitos.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -80,6 +84,9 @@
             "projectReferences": {
               "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/Pappelitos.BusinessLogic.Interface.csproj": {
                 "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.BusinessLogic.Interface/Pappelitos.BusinessLogic.Interface.csproj"
+              },
+              "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess.Interface/Pappelitos.DataAccess.Interface.csproj": {
+                "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess.Interface/Pappelitos.DataAccess.Interface.csproj"
               },
               "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess/Pappelitos.DataAccess.csproj": {
                 "projectPath": "/Users/lucas.lopez/Documents/Repos/Pappelitos/Pappelitos.DataAccess/Pappelitos.DataAccess.csproj"

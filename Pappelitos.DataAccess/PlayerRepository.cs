@@ -24,7 +24,7 @@ namespace Pappelitos.DataAccess
             return toReturn;
         } 
 
-        public override Player GetByID(int id){
+        public override Player GetById(int id){
             Player toReturn = Context.Set<Player>().Where(x => x.Id == id).FirstOrDefault();
             return toReturn;
         } 

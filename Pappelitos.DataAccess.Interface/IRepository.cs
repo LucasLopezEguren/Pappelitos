@@ -13,7 +13,7 @@ namespace Pappelitos.DataAccess.Interface
         bool Has(T entity);
         IEnumerable<T> GetAll();
         T GetByName(string name);
-        T GetByID(int id);
+        T GetById(int id);
         IEnumerable<T> GetByCondition(Expression<Func<T, bool>> expression);
         T GetFirst(Expression<Func<T, bool>> expression);
     }

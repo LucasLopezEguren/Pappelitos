@@ -23,7 +23,7 @@ namespace Pappelitos.DataAccess
             throw new NotImplementedException();
         } 
 
-        public override Match GetByID(int id){
+        public override Match GetById(int id){
             Match toReturn = Context.Set<Match>().Where(x => x.Id == id).FirstOrDefault();
             return toReturn;
         } 

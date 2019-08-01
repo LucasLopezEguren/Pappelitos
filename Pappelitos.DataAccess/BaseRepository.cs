@@ -39,7 +39,7 @@ namespace Pappelitos.DataAccess
 
         public abstract T GetByName(string name);
 
-        public abstract T GetByID(int id);
+        public abstract T GetById(int id);
 
         public void Update(T entity) 
         {

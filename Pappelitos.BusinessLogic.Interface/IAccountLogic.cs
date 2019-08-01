@@ -10,5 +10,6 @@ namespace Pappelitos.BusinessLogic.Interface
         void DeleteAccount(int id);
         void CreatePlayer (Account account, String name);
         Match CreateMatch (Account account, Match newMatch);
+        Account GetById (int id);
     }
 }

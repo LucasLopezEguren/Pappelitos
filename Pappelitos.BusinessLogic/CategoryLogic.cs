@@ -20,7 +20,7 @@ namespace Pappelitos.BusinessLogic
         }
         public void DeleteCategory(int id)
         {
-            Category toDelete = categoryRepository.GetByID(id);
+            Category toDelete = categoryRepository.GetById(id);
             categoryRepository.Delete(toDelete);
             categoryRepository.Save();
         }

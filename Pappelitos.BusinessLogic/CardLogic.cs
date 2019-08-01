@@ -20,7 +20,7 @@ namespace Pappelitos.BusinessLogic
         }
         public void DeleteCard(int id)
         {
-            Card toDelete = cardRepository.GetByID(id);
+            Card toDelete = cardRepository.GetById(id);
             cardRepository.Delete(toDelete);
             cardRepository.Save();
         }
