@@ -25,7 +25,28 @@ namespace Pappelitos.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddDbContext<PappelitosContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScouped<IRepository<DbContext>>(sp => sp.GetService<PappelitosContext>());
+            services.AddScoped<IRepository<Account>, AccountRepository>();
+            services.AddScoped<IRepository<Match>, MatchRepository>();
+            services.AddScoped<IRepository<Player>, PlayerRepository>();
+            services.AddScoped<IRepository<Category>, CategoryRepository>();
+            services.AddScoped<IRepository<Card>, CardRepository>();
+            services.AddScoped<IAccountLogic, AccountLogic>();
+            services.AddScoped<IMatchLogic, MatchLogic>();
+            services.AddScoped<IPlayerLogic, PlayerLogic>();
+            services.AddScoped<ICategoryLogic, CategoryLogic>();
+            services.AddScoped<ICardLogic, CardLogic>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +63,7 @@ namespace Pappelitos.WebApi
             }
 
             app.UseHttpsRedirection();
+            app.UseCors("CorsPolicy");
             app.UseMvc();
         }
     }
