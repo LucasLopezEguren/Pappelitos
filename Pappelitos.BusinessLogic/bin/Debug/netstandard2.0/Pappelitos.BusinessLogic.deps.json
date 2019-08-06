@@ -12,6 +12,7 @@
           "NETStandard.Library": "2.0.3",
           "Pappelitos.BusinessLogic.Interface": "1.0.0",
           "Pappelitos.DataAccess": "1.0.0",
+          "Pappelitos.DataAccess.Interface": "1.0.0",
           "Pappelitos.Domain": "1.0.0"
         },
         "runtime": {
@@ -668,6 +669,9 @@
         }
       },
       "Pappelitos.BusinessLogic.Interface/1.0.0": {
+        "dependencies": {
+          "Pappelitos.Domain": "1.0.0"
+        },
         "runtime": {
           "Pappelitos.BusinessLogic.Interface.dll": {}
         }

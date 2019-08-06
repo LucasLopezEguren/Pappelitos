@@ -3,43 +3,49 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Pappelitos.Domain;
 
 namespace Pappelitos.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class AccountController : ControllerBase
     {
+        private IAccountLogic accountLogic;
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<Account>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return accountLogic.GetAllAccount();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return accountLogic.GetById(id);
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Account toAdd)
         {
+            accountLogic.AddAccount(toAdd);
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put([FromBody] Account toUpdate)
         {
+            accountLogic.UpdateAccount(toUpdate);
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            accountLogic.DeleteAccount(id);
         }
     }
 }
